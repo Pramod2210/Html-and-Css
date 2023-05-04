@@ -1,0 +1,23 @@
+.photo{
+  display:flex;
+flex-wrap:wrap;
+background-color:white;
+ border: 2px solid red;
+ }
+img{
+border: 5px solid black;
+}
+
+.one{
+justify-content:space-around;
+margin: 0 50px;
+}
+
+.two{
+
+justify-content:space-between;
+margin:0 50px;
+
+}
+
+   
