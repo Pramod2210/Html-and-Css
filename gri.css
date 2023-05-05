@@ -1,0 +1,57 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.heading{
+    text-align: center;
+    color: blue;
+}
+
+.container{
+    display:grid;
+    width:500px;
+    height:600px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
+     row-gap: 10px;
+     column-gap: 10px;
+    margin-left: 30%;
+    border-radius: 5px;
+    border:3px solid black
+    
+}
+.child{
+    border:1px solid black
+
+}
+
+.output{
+   grid-column-start: 1; 
+   grid-column-end: 5;
+   grid-column-start: 1;
+   grid-row-end: 2;
+   height:30%px;
+   background-color: aqua;
+   text-align:end;
+   font-size: 30px;
+}
+
+.equal{
+    grid-column: 3 / span 2;
+    background-color:blueviolet
+}
+
+button{
+    font-size: 30px;
+     border-radius: 10px;
+}
+
+.clear{
+    background-color: brown;
+    color: aliceblue;
+}
+.sign{
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
